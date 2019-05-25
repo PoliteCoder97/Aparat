@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#55000000"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+      android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_margin="3dp"
+        android:text="خطایی در دریافت اطلاعات رخ داده است "
+        />
+    <Button
+        android:id="@+id/btnRetryToRequest"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="تلاش مجدد"
+        android:textColor="#ffffff"
+        android:background="@drawable/app_button_background"
+        />
+</LinearLayout>
